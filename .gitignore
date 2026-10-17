@@ -8,3 +8,12 @@ coverage
 .next
 .vercel
 config.bat
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.sample
+!.env.template
+
+# Local editor and workspace configuration
+.vscode/
